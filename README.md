@@ -22,19 +22,17 @@ npm (v6 or higher)
 Installation
 Clone the repository:
 
-bash
-Copy code
-git clone git@github.com:moayed10111/WeatherApp.git
+
+git clone 
 cd WeatherApp
 Install dependencies:
 
-bash
-Copy code
+
+
 npm install
 Create a .env file at the root of the project:
 
-plaintext
-Copy code
+
 API_BASE_URL=<YOUR_WEATHER_API_BASE_URL>
 API_KEY=<YOUR_API_KEY>
 Set up the database:
@@ -43,14 +41,12 @@ Create a folder named db in the root of the project.
 
 Inside db, create an empty JSON file named db.json to store city data:
 
-bash
-Copy code
+
 mkdir db && echo "[]" > db/db.json
 Usage
 Start the application:
 
-bash
-Copy code
+
 npm start
 Access the app via your terminal or extend it with a frontend.
 
@@ -61,18 +57,16 @@ Fork the repository.
 
 Create a new branch:
 
-bash
-Copy code
+
 git checkout -b feature/YourFeature
 Make your changes and commit them:
 
-bash
-Copy code
+
+
 git commit -m "Add your feature"
 Push the changes to your branch:
 
-bash
-Copy code
+
 git push origin feature/YourFeature
 Open a pull request, and we’ll review it promptly.
 
